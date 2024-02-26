@@ -1,0 +1,29 @@
+# -*- coding: utf-8 -*-
+
+__Version__ = "0.1.0"
+__Date__ = "2024-26-02"
+__License__ = "LGPL-3.0-or-later"
+__Web__ = ""
+__Wiki__ = "README.md"
+__Name__ = "Cut List for Dodo"
+__Comment__ = "Create a Cut List of Selected Dodo Beams. Optional Nesting"
+__Author__ = "FilePhil"
+__Icon__ = "dodo_CutList/resources/cut_list_icon.svg"
+__Help__ = "dodo_CutList/README.md"
+__Status__ = "Alpha"
+__Requires__ = "FreeCAD >= 0.19"
+__Communication__ = ""
+__Files__ =  """dodo_CutList/resources/cut_list_icon.svg,
+                dodo_CutList/resources/cut_list_dialog.ui,
+                dodo_CutList/__init__.py,
+                dodo_CutList/cut_list_creation.py,
+                dodo_CutList/cut_list_ui.py,
+                dodo_CutList/resultSpreadsheet.py"""
+
+VERSION_STRING = __Name__ + " Macro v" + __Version__
+
+
+from dodo_CutList import cut_list_ui
+
+# Open the UI
+cut_list_ui.openCutListDialog()
