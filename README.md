@@ -5,8 +5,10 @@ The cut list can use one or more profiles (sections/sketches).\
 A position number will be generated for each profile & length combination (rounded to 0.01mm).\
 The script will create a new speadsheet object with each cut list.
 
-# Options
+# How to use it
+[Cut_List.webm](https://github.com/FilePhil/dodo_Cutlist_Macro_Version/assets/16101101/e992a925-0a02-4560-8e7c-a22eef86234d)
 
+# Options
 ## Group Parts by Size
 The Option "Group Parts by Size" will count all Pieces with the same profile and Length (rounded to 0.01mm).
 
